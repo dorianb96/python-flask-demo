@@ -2,7 +2,7 @@
 
 In this project I implemented a simple **flask** server that serves REST API requests on top of a SQLite database.
 
-##Dependencies:  
+## Dependencies:  
 - python 3 (tested on 3.6)
 - sqlite3  
 - re  
@@ -11,21 +11,21 @@ In this project I implemented a simple **flask** server that serves REST API req
 - jinja2  
 
 
-##Deployment
+## Deployment
 
-The falsk server can be started using a single command:  
+The flask server can be started using a single command in the same folder as python file:  
 `python flask_server.py
 `
 
 The relevant sqlite database named 'demo.sqlite' will be created and populated in the same folder as the file. 
 
-##Testing
+## Testing
 
 You can view sample requests made using cURL in the **request.sh** shell script. 
 
-To run the sample request to view the output by first giving the script executable permission: 
+You first have to give the script executable permission:  
 `chmod +x request.sh`
 
-To run the script simple execute:  
+To run the script simply execute:  
 `./request.sh`
 
