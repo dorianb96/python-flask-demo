@@ -23,9 +23,9 @@ The relevant sqlite database named 'demo.sqlite' will be created and populated i
 
 You can view sample requests made using cURL in the **request.sh** shell script. 
 
-To run the sample request to view the output by first giving the script executable permission: 
+You first have to give the script executable permission: 
 `chmod +x request.sh`
 
-To run the script simple execute:  
+To run the script simply execute:  
 `./request.sh`
 
