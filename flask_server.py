@@ -42,12 +42,14 @@ def init_sqlite_db():
         );
     """)
     conn.commit()
+
     rows = cursor.execute("""
       SELECT 
         * 
       FROM 
         cars ;    
     """).fetchall()
+
     if len(rows) < 1:
         # also could have read the CSV file with pandas and exported it to SQLite
         conn.execute("""
