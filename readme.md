@@ -13,7 +13,7 @@ In this project I implemented a simple **flask** server that serves REST API req
 
 ## Deployment
 
-The falsk server can be started using a single command:  
+The flask server can be started using a single command in the same folder as python file:  
 `python flask_server.py
 `
 
